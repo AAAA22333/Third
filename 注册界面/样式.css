@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* 设置外部容器 */
+.outer{
+    width: 480px;
+    height: auto;
+    border: 1px black solid;
+    margin:130px auto;
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+}
+/* 设置标题注册的位置 */
+.title{
+    margin:20px;
+}
+/* 设置输入框的样式 */
+input{
+    display:block;
+    margin:10px auto;
+    width: 240px;
+    height: 30px;
+    border:none;
+    border-bottom:2px white solid;
+    background-color: transparent;
+    color:white;
+    font-size:17px;
+    padding:0 10px;
+}
+/* 设置注册按钮 */
+.submit button{
+    margin-top:10px;
+    width:70px;
+    height: 40px;
+    border:0;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:bold;
+    background-color: transparent;
+    margin-bottom:10px;
+}
+.submit button:hover{
+    background-image:linear-gradient(#D9AFD9,#97D9E1);
+}
+/* 设置span内字体样式 */
+span{
+    display:block;
+    color:black;
+    font-size:12px;
+    font-weight: blod;
+}
+/* 设置背景图片 */
+body{
+    background-image: url("./img/银河.jpg");
+    background-size: 100%;
+}
